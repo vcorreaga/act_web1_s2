@@ -1,0 +1,22 @@
+[
+    {
+        "activity": "What is the capital of France?",
+        "solution": "file1.js"
+    },
+    {
+        "activity": "What is DNA?",
+        "solution": "file2.js"
+    },
+    {
+        "activity": "Who wrote 'One Hundred Years of Solitude'?",
+        "solution": "file3.js"
+    },
+    {
+        "activity": "What is the world's largest ocean?",
+        "solution": "file4.js"
+    },
+    {
+        "activity": "What is photosynthesis?",
+        "solution": "file5.js"
+    }
+]
