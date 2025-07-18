@@ -1,0 +1,22 @@
+[
+    {
+        "pregunta": "¿Cuál es la capital de Francia?",
+        "file": "paris.jpg"
+    },
+    {
+        "pregunta": "¿Qué es el ADN?",
+        "file": "dna.jpg"
+    },
+    {
+        "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+        "file": "gabriel_garcia_marquez.jpg"
+    },
+    {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "file": "pacifico.jpg"
+    },
+    {
+        "pregunta": "¿Qué es la fotosíntesis?",
+        "file": "photosynthesis.jpg"
+    }
+]
