@@ -172,89 +172,89 @@
     "evaluatedAt": "2025-08-21T22:43:48.972Z",
     "evaluatedBy": "Sistema de Evaluación"
   },
-  "CarolinaBolivar5/act_web1_s2": {
-    "repositoryUrl": "CarolinaBolivar5/act_web1_s2",
-    "studentName": "Carolina Bolivar Rios",
+  "Jcorrea24/act_web1_s2": {
+    "repositoryUrl": "Jcorrea24/act_web1_s2",
+    "studentName": "Julio Eduardo Correa",
     "activities": [
       {
         "activityDescription": "Par o Impar - Declara la variable numero = 7. Imprime 'par' o 'impar' según corresponda.",
         "solutionFile": "src/ejercicio1.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La lógica es correcta y el código funciona, pero la variable `numero` debería ser 7 según la descripción del problema, no 8. Por lo demás, el código es limpio y fácil de entender."
+        "feedback": "La lógica es correcta y funciona. Sin embargo, la variable 'numero' debería ser declarada usando 'const' o 'let'. La solución inicial pedía que 'numero' fuera 7, pero fue cambiado a 20, lo cual, aunque correcto, no sigue la instrucción original."
       },
       {
         "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
         "solutionFile": "src/ejercicio2.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y eficiente. El código es legible y cumple con el objetivo planteado de manera clara y concisa."
+        "feedback": "La solución es correcta y funcional. Considera usar `const` o `let` para declarar las variables en lugar de asignaciones globales implícitas para mejor legibilidad y evitar problemas potenciales."
       },
       {
         "activityDescription": "Clasificación de edad - Declara edad = 15. Imprime 'niño' si es 0-12, 'adolescente' si es 13-17, 'adulto' si es 18-64, 'anciano' si es 65 o más.",
         "solutionFile": "src/ejercicio3.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa. El código es claro, conciso y sigue las buenas prácticas para la lógica condicional. Bien hecho!"
+        "feedback": "La solución funciona correctamente. Sin embargo, la variable 'edad' no está declarada con 'let' o 'const', lo cual es una mala práctica. Considera usar 'const edad = 65;' para mayor claridad y evitar errores."
       },
       {
         "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
         "solutionFile": "src/ejercicio4.js",
-        "score": 5,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa. El código es legible y maneja todos los casos solicitados en la descripción del problema, incluyendo la división por cero."
+        "feedback": "La lógica es correcta pero no cumple con los valores iniciales especificados en la descripción del problema. Se recomienda usar `const` o `let` para declarar las variables."
       },
       {
         "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
         "solutionFile": "src/ejercicio5.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y concisa. El código es legible y cumple con la funcionalidad descrita en la actividad."
+        "feedback": "La solución es correcta y funcional, aunque la estructura del `if` podría simplificarse usando un array o `switch`. Considera usar `const` o `let` para declarar la variable `dia`."
       },
       {
         "activityDescription": "Nota a letra - Declara nota = 83. Convierte la nota numérica (0-100) a letra: 90-100 → 'A', 80-89 → 'B', 70-79 → 'C', 60-69 → 'D', < 60 → 'F'.",
         "solutionFile": "src/ejercicio6.js",
-        "score": 4,
+        "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad encapsulando la lógica en una función y retornando el valor en lugar de imprimirlo directamente."
+        "feedback": "La solución es correcta y el código está bien estructurado y es legible. Cumple con la funcionalidad descrita y las buenas prácticas."
       },
       {
         "activityDescription": "Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si cantidad < 10, 10% si 10 ≤ cantidad < 50, 20% si cantidad ≥ 50. Imprime precioFinal redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio7.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y eficiente. El código es legible y aplica la lógica de descuentos según la cantidad comprada, formateando el resultado a dos decimales."
+        "feedback": "La solución es correcta y bien estructurada. El código es legible y aplica los descuentos según las condiciones dadas, además de formatear la salida correctamente."
       },
       {
         "activityDescription": "Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase = distanciaKm * 0.21. Aplica 20% descuento si edad < 18, 40% descuento si edad ≥ 65. Imprime precio final redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio8.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y concisa. El código es legible y cumple con los requisitos del problema planteado, aplicando los descuentos según la edad."
+        "feedback": "Solución correcta y eficiente al problema planteado. El código es claro y fácil de entender, aplicando correctamente las condiciones de descuento."
       },
       {
         "activityDescription": "Conversor de notas musicales (switch) - Declara nota = 'LA'. Imprime el número MIDI: DO → 60, RE → 62, MI → 64, FA → 65, SOL → 67, LA → 69, SI → 71. Cualquier otro valor → 'nota desconocida'.",
         "solutionFile": "src/ejercicio9.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con los requisitos. El código es legible y bien estructurado, utilizando un switch statement apropiadamente."
+        "feedback": "La solución es correcta, clara y concisa. Cumple con todos los requisitos de la actividad y presenta un código bien estructurado."
       },
       {
         "activityDescription": "Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.",
         "solutionFile": "src/ejercicio10.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y concisa. El código es limpio y fácil de entender, cumpliendo con los requisitos de la actividad."
+        "feedback": "Solución correcta y eficiente. El código es claro y fácil de entender, cumpliendo con la descripción del problema."
       }
     ],
-    "overallScore": 4.8,
+    "overallScore": 4.4,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.8/5. Demuestra buen dominio de los conceptos.",
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.4/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
       "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-08-21T22:46:18.630Z",
+    "evaluatedAt": "2025-08-21T22:47:37.697Z",
     "evaluatedBy": "Sistema de Evaluación"
   }
 }
