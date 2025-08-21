@@ -257,89 +257,89 @@
     "evaluatedAt": "2025-08-21T22:49:46.355Z",
     "evaluatedBy": "Sistema de Evaluación"
   },
-  "Estefania-Catano/act_web1_s2": {
-    "repositoryUrl": "Estefania-Catano/act_web1_s2",
-    "studentName": "Estefania Cataño Hoyos",
+  "MarioMunera1993/act_web1_s2": {
+    "repositoryUrl": "MarioMunera1993/act_web1_s2",
+    "studentName": "Mario Alonso Munera Velez",
     "activities": [
       {
         "activityDescription": "Par o Impar - Declara la variable numero = 7. Imprime 'par' o 'impar' según corresponda.",
         "solutionFile": "src/ejercicio1.js",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La lógica es correcta, pero la variable `numero` debe inicializarse con el valor 7 como se indica en la descripción del problema. Considera utilizar un mensaje más simple como 'par' o 'impar' directamente."
+        "feedback": "La solución funciona correctamente para el número asignado. Sin embargo, faltó la declaración de la variable 'numero' con 'let' o 'const'. Considera usar const si el valor no debe cambiar."
       },
       {
         "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
         "solutionFile": "src/ejercicio2.js",
-        "score": 5,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución es correcta y eficiente. El código es claro y fácil de entender. No hay mejoras significativas que sugerir."
+        "feedback": "El código funciona correctamente para determinar el mayor de dos números. Sin embargo, no usa los valores a=14 y b=9 especificados en la descripción del problema, y usa valores hardcodeados. Se recomienda usar los valores indicados en el enunciado y usar variables con nombres más descriptivos."
       },
       {
         "activityDescription": "Clasificación de edad - Declara edad = 15. Imprime 'niño' si es 0-12, 'adolescente' si es 13-17, 'adulto' si es 18-64, 'anciano' si es 65 o más.",
         "solutionFile": "src/ejercicio3.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es legible y bien estructurado."
+        "feedback": "La solución es correcta y cumple con los requisitos. El código es legible y bien estructurado. Podrías mejorar la reutilización del código utilizando una estructura switch o una función."
       },
       {
         "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
         "solutionFile": "src/ejercicio4.js",
-        "score": 5,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución es correcta y bien estructurada. El código es legible y cubre todos los casos solicitados, incluyendo la validación de división por cero."
+        "feedback": "La lógica del switch funciona, pero los valores iniciales de las variables (numero1, numero2) no coinciden con los requerimientos de la actividad (a=10, b=3). Además, el 'operador no válido' no se imprime como se pide en la descripción."
       },
       {
         "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
         "solutionFile": "src/ejercicio5.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Podrías mejorar la legibilidad del código utilizando un `switch` o un array con los días de la semana para simplificar la condición del `if`."
+        "feedback": "La solución es correcta y funcional, utilizando un `switch` para determinar si es día laborable o fin de semana. Se podría mejorar declarando la variable `dia` con `let` o `const` para mayor claridad y evitar el ámbito global implícito."
       },
       {
         "activityDescription": "Nota a letra - Declara nota = 83. Convierte la nota numérica (0-100) a letra: 90-100 → 'A', 80-89 → 'B', 70-79 → 'C', 60-69 → 'D', < 60 → 'F'.",
         "solutionFile": "src/ejercicio6.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad utilizando un `switch` o un objeto para mapear rangos a letras, y agregar validación para notas fuera del rango 0-100 al inicio."
+        "feedback": "La solución es correcta y funcional, pero podría ser más concisa utilizando un `switch` o una función para evitar la repetición de `console.log`. Considera usar `else if` encadenados para mayor legibilidad."
       },
       {
         "activityDescription": "Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si cantidad < 10, 10% si 10 ≤ cantidad < 50, 20% si cantidad ≥ 50. Imprime precioFinal redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio7.js",
-        "score": 5,
+        "score": 3,
         "fileFound": true,
-        "feedback": "Solución correcta y bien estructurada. El código es legible y aplica correctamente los descuentos según la cantidad. Excelente uso de `toFixed(2)` para el formato de salida."
+        "feedback": "La lógica del descuento es correcta, pero los valores iniciales de `precioUnitario` y `cantidad` no coinciden con los indicados en la descripción del ejercicio.  Considera usar `toFixed(2)` para redondear el precio final a dos decimales."
       },
       {
         "activityDescription": "Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase = distanciaKm * 0.21. Aplica 20% descuento si edad < 18, 40% descuento si edad ≥ 65. Imprime precio final redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio8.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Solución correcta y funcional. El código es claro y conciso.  Buen uso de condicionales y formato de salida."
+        "feedback": "La lógica es correcta y funcional, pero falta redondear el precio final a dos decimales como se pide en la descripción. Además, el código podría mejorarse usando `else` para cubrir el caso en que no aplica ningún descuento."
       },
       {
         "activityDescription": "Conversor de notas musicales (switch) - Declara nota = 'LA'. Imprime el número MIDI: DO → 60, RE → 62, MI → 64, FA → 65, SOL → 67, LA → 69, SI → 71. Cualquier otro valor → 'nota desconocida'.",
         "solutionFile": "src/ejercicio9.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es limpio y fácil de entender."
+        "feedback": "La solución es funcional y resuelve el problema planteado.  Considerar usar 'let' o 'const' para declarar la variable 'nota' en lugar de una asignación global implícita y ser consistente con el uso de mayúsculas/minúsculas (ej: 'SI' vs 'Si')."
       },
       {
         "activityDescription": "Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.",
         "solutionFile": "src/ejercicio10.js",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y concisa. El código es limpio y cumple con la descripción del problema."
+        "feedback": "La lógica es correcta pero la contraseña definida en el código no coincide con la descripción del problema. Revisar la asignación de valores a las variables para que coincidan con la descripción."
       }
     ],
-    "overallScore": 4.6,
+    "overallScore": 3.8,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.6/5. Demuestra buen dominio de los conceptos.",
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.8/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
       "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-08-21T22:58:29.033Z",
+    "evaluatedAt": "2025-08-21T22:59:45.814Z",
     "evaluatedBy": "Sistema de Evaluación"
   }
 }
