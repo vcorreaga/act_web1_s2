@@ -511,7 +511,92 @@
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-08-25T04:14:50.844Z",
+    "evaluatedAt": "2025-08-25T04:13:15.683Z",
+    "evaluatedBy": "Sistema de Evaluación"
+  },
+  "vastrocode72/act_web1_s2": {
+    "repositoryUrl": "vastrocode72/act_web1_s2",
+    "studentName": "Víctor Alejandro Berrío Rivera",
+    "activities": [
+      {
+        "activityDescription": "Par o Impar - Declara la variable numero = 7. Imprime 'par' o 'impar' según corresponda.",
+        "solutionFile": "src/ejercicio1.js",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "El código no usa el valor asignado en la descripción (7) y el manejo de la condición 'else' es redundante. Se recomienda usar el valor dado y simplificar la lógica condicional."
+      },
+      {
+        "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
+        "solutionFile": "src/ejercicio2.js",
+        "score": 0,
+        "fileFound": true,
+        "feedback": "Error al procesar la evaluación"
+      },
+      {
+        "activityDescription": "Clasificación de edad - Declara edad = 15. Imprime 'niño' si es 0-12, 'adolescente' si es 13-17, 'adulto' si es 18-64, 'anciano' si es 65 o más.",
+        "solutionFile": "src/ejercicio3.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código funciona correctamente y la lógica es clara. Sin embargo, la variable `edad` debería ser 15 como se indica en la descripción y no 11. Podrías agregar manejo de errores para edades negativas."
+      },
+      {
+        "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
+        "solutionFile": "src/ejercicio4.js",
+        "score": 1,
+        "fileFound": true,
+        "feedback": "El código no realiza el cálculo condicionado por el operador usando un switch. Solo imprime una concatenación de la variable 'a', el operador y la variable 'b'. Necesitas implementar la lógica del switch para las operaciones."
+      },
+      {
+        "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
+        "solutionFile": "src/ejercicio5.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución es correcta y funcional. Considera usar 'default' para agrupar casos similares (lunes a viernes) o usar un array para verificar si el día está en la lista de días laborables para una solución más concisa."
+      },
+      {
+        "activityDescription": "Nota a letra - Declara nota = 83. Convierte la nota numérica (0-100) a letra: 90-100 → 'A', 80-89 → 'B', 70-79 → 'C', 60-69 → 'D', < 60 → 'F'.",
+        "solutionFile": "src/ejercicio6.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución funciona correctamente y cubre todos los casos. Se podría mejorar la legibilidad y mantenibilidad usando un `switch` o un objeto para mapear rangos a letras."
+      },
+      {
+        "activityDescription": "Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si cantidad < 10, 10% si 10 ≤ cantidad < 50, 20% si cantidad ≥ 50. Imprime precioFinal redondeado a 2 decimales.",
+        "solutionFile": "src/ejercicio7.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta y concisa. El código es legible y cumple con los requisitos del problema."
+      },
+      {
+        "activityDescription": "Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase = distanciaKm * 0.21. Aplica 20% descuento si edad < 18, 40% descuento si edad ≥ 65. Imprime precio final redondeado a 2 decimales.",
+        "solutionFile": "src/ejercicio8.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La lógica es correcta, pero la declaración de `edad` debería ser 67 como se indica en la descripción del problema. Podrías redondear el resultado final a dos decimales usando `toFixed(2)` para cumplir completamente con los requisitos."
+      },
+      {
+        "activityDescription": "Conversor de notas musicales (switch) - Declara nota = 'LA'. Imprime el número MIDI: DO → 60, RE → 62, MI → 64, FA → 65, SOL → 67, LA → 69, SI → 71. Cualquier otro valor → 'nota desconocida'.",
+        "solutionFile": "src/ejercicio9.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución es correcta y funcional. Podrías mejorar el mensaje 'Error' en el default por 'nota desconocida' para cumplir exactamente con la descripción de la actividad."
+      },
+      {
+        "activityDescription": "Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.",
+        "solutionFile": "src/ejercicio10.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Solución correcta y funcional. El código es legible y cumple con los requisitos de la actividad. Buen trabajo."
+      }
+    ],
+    "overallScore": 3.4,
+    "totalActivities": 10,
+    "completedActivities": 9,
+    "summary": "Buen trabajo general. Completó 9/10 actividades (90%) con una calificación promedio de 3.4/5. Hay oportunidades de mejora en algunos aspectos.",
+    "recommendations": [
+      "Revisar y mejorar las actividades con calificación baja"
+    ],
+    "evaluatedAt": "2025-08-25T04:17:56.835Z",
     "evaluatedBy": "Sistema de Evaluación"
   }
 }
