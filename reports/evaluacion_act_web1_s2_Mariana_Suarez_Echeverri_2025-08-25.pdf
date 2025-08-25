@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 16399
+/Length 16446
 >>
 stream
 0.5670000000000001 w
@@ -48,7 +48,7 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 692.6774015748030706 Td
-(Fecha de evaluación: 24/8/2025, 23:09:34) Tj
+(Fecha de evaluación: 24/8/2025, 23:11:02) Tj
 ET
 BT
 /F1 10 Tf
@@ -69,7 +69,7 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 623.827007874015635 Td
-(Calificación general: 4.3/5.0) Tj
+(Calificación general: 4.4/5.0) Tj
 ET
 BT
 /F1 10 Tf
@@ -421,7 +421,7 @@ BT
 9.1999999999999993 TL
 0.314 g
 469.8818897637795544 441.0533858267716596 Td
-(2.0) Tj
+(3.0) Tj
 ET
 1. g
 0.78 G
@@ -868,7 +868,7 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 179.9179527559055032 Td
-(La solución es correcta y concisa. El código es legible y cumple con el objetivo del ejercicio.) Tj
+(La solución es correcta y concisa. El código es limpio y fácil de entender. Buen trabajo.) Tj
 ET
 BT
 /F2 10 Tf
@@ -910,9 +910,9 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 77.3982677165354289 Td
-(La lógica es correcta y el código funciona. Sin embargo, hay un error de tipeo, 'nume1' y 'num2' en la declaración,) Tj
-T* (mientras que se usan 'num1' y 'num2' en la condición. Corrige los nombres de las variables para mayor claridad y) Tj
-T* (consistencia.) Tj
+(La lógica es correcta y el programa funciona. Sin embargo, hay un error tipográfico: usas `num1` y `num2` en el `if`) Tj
+T* (en lugar de `nume1` y `num2`, lo que impediría la ejecución si no estuvieran definidos globalmente. Considera usar) Tj
+T* (nombres de variables consistentes y evita errores tipográficos.) Tj
 ET
 BT
 /F1 8 Tf
@@ -940,7 +940,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 6427
+/Length 6338
 >>
 stream
 0.5670000000000001 w
@@ -986,13 +986,14 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 695.3506299212598378 Td
-(La solución es correcta y clara. El código es legible y cumple con los requisitos del problema.) Tj
+(La solución es correcta y cumple con los requisitos de la actividad. El código es limpio, legible y utiliza estructuras) Tj
+T* (condicionales adecuadas.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 671.1774015748030706 Td
+39.6850393700787407 659.6774015748030706 Td
 (Actividad 4: Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o) Tj
 T* ('operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.) Tj
 ET
@@ -1000,43 +1001,43 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 644.0081102362204319 Td
+51.0236220472441033 632.5081102362204319 Td
 (Archivo esperado: src/ejercicio4.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 628.3388188976377933 Td
+51.0236220472441033 616.8388188976377933 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 612.6695275590550409 Td
-(Calificación: 2.0/5.0) Tj
+51.0236220472441033 601.1695275590551546 Td
+(Calificación: 3.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 597.0002362204725159 Td
+51.0236220472441033 585.5002362204725159 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 581.3309448818897636 Td
-(El código tiene errores de sintaxis en `console.log= \(a + b\)` \(etc.\), lo que impide su correcta ejecución. Además, la) Tj
-T* (lógica para la división cuando b es 0 está invertida, imprimiendo el resultado en lugar de 'Indeterminado'.) Tj
+62.3622047244094517 569.8309448818897636 Td
+(La lógica del switch es correcta, pero la sintaxis `console.log=` es incorrecta, debe ser `console.log\(\)`. Además, la) Tj
+T* (condición para 'Indeterminado' está invertida y el mensaje incorrecto.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 545.65771653543311 Td
+39.6850393700787407 534.15771653543311 Td
 (Actividad 5: Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y) Tj
 T* ('fin de semana' para sábado o domingo.) Tj
 ET
@@ -1044,43 +1045,43 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 518.4884251968503577 Td
+51.0236220472441033 506.9884251968504145 Td
 (Archivo esperado: src/ejercicio5.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 502.819133858267719 Td
+51.0236220472441033 491.319133858267719 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 487.1498425196850803 Td
+51.0236220472441033 475.6498425196850803 Td
 (Calificación: 4.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 471.4805511811023848 Td
+51.0236220472441033 459.9805511811024417 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 455.8112598425197461 Td
-(La solución es correcta y funcional. Podría mejorarse incluyendo la posibilidad de utilizar otros días \(lunes, martes,) Tj
-T* (etc\) en la variable 'dia' y validando que la entrada sea correcta para evitar errores.) Tj
+62.3622047244094517 444.3112598425197461 Td
+(La solución es correcta y funcional. Podría mejorarse incluyendo la validación de otros días de la semana para) Tj
+T* (mayor robustez y usando toLowerCase\(\) para hacer la comparación insensible a mayúsculas/minúsculas.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 420.1380314960630926 Td
+39.6850393700787407 408.6380314960630926 Td
 ( A c t i v i d a d   6 :   N o t a   a   l e t r a   -   D e c l a r a   n o t a   =   8 3 .   C o n v i e r t e   l a   n o t a   n u m é r i c a   \( 0 - 1 0 0 \)   a   l e t r a :   9 0 - 1 0 0  !’   ' A ' ,   8 0 - 8 9  !’) Tj
 T* ( ' B ' ,   7 0 - 7 9  !’   ' C ' ,   6 0 - 6 9  !’   ' D ' ,   <   6 0  !’   ' F ' .) Tj
 ET
@@ -1088,43 +1089,44 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 392.9687401574804539 Td
+51.0236220472441033 381.4687401574804539 Td
 (Archivo esperado: src/ejercicio6.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 377.2994488188977584 Td
+51.0236220472441033 365.7994488188977584 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 361.6301574803151198 Td
+51.0236220472441033 350.1301574803151198 Td
 (Calificación: 4.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 345.9608661417324242 Td
+51.0236220472441033 334.4608661417324811 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 330.2915748031497856 Td
-(La solución es correcta y funcional. Podrías considerar usar un bloque `if/else if/else` más conciso o usar un switch) Tj
-T* (para hacerlo más legible, especialmente si tuvieras más rangos de notas.) Tj
+62.3622047244094517 318.7915748031498424 Td
+(La solución es correcta y funciona como se espera. Podría mejorar la legibilidad usando `const` para la variable) Tj
+T* (`nota` ya que su valor no cambia. Además, considerar usar un switch statement o una función para hacerlo más) Tj
+T* (modular.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 294.6183464566930752 Td
+39.6850393700787407 271.6183464566931889 Td
 (Actividad 7: Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si) Tj
 T* ( c a n t i d a d   <   1 0 ,   1 0 %   s i   1 0  "d   c a n t i d a d   <   5 0 ,   2 0 %   s i   c a n t i d a d  "e   5 0 .   I m p r i m e   p r e c i o F i n a l   r e d o n d e a d o   a   2) Tj
 T* (decimales.) Tj
@@ -1133,43 +1135,43 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 255.9490551181104365 Td
+51.0236220472441033 232.9490551181105502 Td
 (Archivo esperado: src/ejercicio7.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 240.2797637795277979 Td
+51.0236220472441033 217.2797637795277979 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 224.6104724409451592 Td
+51.0236220472441033 201.6104724409451592 Td
 (Calificación: 5.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 208.9411811023625205 Td
+51.0236220472441033 185.9411811023625205 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 193.2718897637798818 Td
-(La solución es correcta y eficiente. El código es legible y cumple con los requisitos del problema, aplicando los) Tj
-T* (descuentos correctamente. Podrías considerar usar `const` para `precioUnitario` si no se espera que cambie.) Tj
+62.3622047244094517 170.2718897637798818 Td
+(La solución es correcta y eficiente. El código es claro y fácil de entender, cumpliendo con las especificaciones del) Tj
+T* (problema.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 157.5986614173231146 Td
+39.6850393700787407 134.5986614173232283 Td
 (Actividad 8: Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase =) Tj
 T* ( d i s t a n c i a K m   *   0 . 2 1 .   A p l i c a   2 0 %   d e s c u e n t o   s i   e d a d   <   1 8 ,   4 0 %   d e s c u e n t o   s i   e d a d  "e   6 5 .   I m p r i m e   p r e c i o   f i n a l) Tj
 T* (redondeado a 2 decimales.) Tj
@@ -1178,38 +1180,37 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 118.9293700787404759 Td
+51.0236220472441033 95.9293700787404759 Td
 (Archivo esperado: src/ejercicio8.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 103.2600787401578373 Td
+51.0236220472441033 80.2600787401578373 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 87.5907874015750849 Td
+51.0236220472441033 64.5907874015751986 Td
 (Calificación: 4.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 71.9214960629924462 Td
+51.0236220472441033 48.9214960629924462 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 56.2522047244098076 Td
-(La solución es correcta y funcional. La estructura del código es clara, pero sería mejor formatear el código para) Tj
-T* (mejorar la legibilidad y evitar concatenar lógica con un console.log. Considera usar `const` para variables que no) Tj
-T* (cambian.) Tj
+62.3622047244094517 33.2522047244098076 Td
+(La solución es correcta y funcional. Se podría mejorar la legibilidad incluyendo espacios alrededor de los) Tj
+T* (operadores y evitando la concatenación en la impresión del resultado final.) Tj
 ET
 BT
 /F1 8 Tf
@@ -1237,7 +1238,7 @@ endobj
 endobj
 8 0 obj
 <<
-/Length 2811
+/Length 2820
 >>
 stream
 0.5670000000000001 w
@@ -1283,13 +1284,14 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 695.3506299212598378 Td
-(La solución es correcta y completa. El código es legible y utiliza la estructura switch adecuadamente. ¡Buen trabajo!) Tj
+(La solución es correcta y cumple con todos los requisitos. El código es legible y utiliza correctamente la estructura) Tj
+T* (switch.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 671.1774015748030706 Td
+39.6850393700787407 659.6774015748030706 Td
 (Actividad 10: Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso) Tj
 T* (concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.) Tj
 ET
@@ -1297,65 +1299,65 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 644.0081102362204319 Td
+51.0236220472441033 632.5081102362204319 Td
 (Archivo esperado: src/ejercicio10.js) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 628.3388188976377933 Td
+51.0236220472441033 616.8388188976377933 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 612.6695275590550409 Td
+51.0236220472441033 601.1695275590551546 Td
 (Calificación: 5.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 597.0002362204725159 Td
+51.0236220472441033 585.5002362204725159 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 581.3309448818897636 Td
-(La solución es correcta y concisa. El código es limpio y cumple con los requisitos de la actividad sin problemas.) Tj
+62.3622047244094517 569.8309448818897636 Td
+(La solución es correcta y cumple con los requisitos. El código es limpio y fácil de entender.) Tj
 ET
 BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 557.15771653543311 Td
+39.6850393700787407 545.65771653543311 Td
 (Resumen General) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 533.819133858267719 Td
-(Excelente trabajo. Completó 10/10 actividades \(100%\) con una calificación promedio de 4.3/5. Demuestra buen) Tj
+39.6850393700787407 522.3191338582678327 Td
+(Excelente trabajo. Completó 10/10 actividades \(100%\) con una calificación promedio de 4.4/5. Demuestra buen) Tj
 T* (dominio de los conceptos.) Tj
 ET
 BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 492.47661417322837 Td
+39.6850393700787407 480.97661417322837 Td
 (Recomendaciones) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 469.1380314960630358 Td
-(• Revisar y mejorar las actividades con calificación baja) Tj
+51.0236220472441033 457.6380314960630358 Td
+(• Continuar con el excelente trabajo y mantener la calidad del código) Tj
 ET
 BT
 /F1 8 Tf
@@ -1543,7 +1545,7 @@ endobj
 23 0 obj
 <<
 /Producer (jsPDF 3.0.1)
-/CreationDate (D:20250824230934-05'00')
+/CreationDate (D:20250824231102-05'00')
 >>
 endobj
 24 0 obj
@@ -1557,37 +1559,37 @@ endobj
 xref
 0 25
 0000000000 65535 f 
-0000026220 00000 n 
-0000028053 00000 n 
+0000026187 00000 n 
+0000028020 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000016604 00000 n 
-0000016741 00000 n 
-0000023220 00000 n 
-0000023357 00000 n 
-0000026289 00000 n 
-0000026414 00000 n 
-0000026545 00000 n 
-0000026679 00000 n 
-0000026817 00000 n 
-0000026941 00000 n 
-0000027070 00000 n 
-0000027202 00000 n 
-0000027338 00000 n 
-0000027466 00000 n 
-0000027593 00000 n 
-0000027722 00000 n 
-0000027855 00000 n 
-0000027957 00000 n 
-0000028305 00000 n 
-0000028391 00000 n 
+0000016651 00000 n 
+0000016788 00000 n 
+0000023178 00000 n 
+0000023315 00000 n 
+0000026256 00000 n 
+0000026381 00000 n 
+0000026512 00000 n 
+0000026646 00000 n 
+0000026784 00000 n 
+0000026908 00000 n 
+0000027037 00000 n 
+0000027169 00000 n 
+0000027305 00000 n 
+0000027433 00000 n 
+0000027560 00000 n 
+0000027689 00000 n 
+0000027822 00000 n 
+0000027924 00000 n 
+0000028272 00000 n 
+0000028358 00000 n 
 trailer
 <<
 /Size 25
 /Root 24 0 R
 /Info 23 0 R
-/ID [ <53F14747BC8B35F6A66CA8875AD95315> <53F14747BC8B35F6A66CA8875AD95315> ]
+/ID [ <ACBABB24265F027DF2A5AD05C07B8DDF> <ACBABB24265F027DF2A5AD05C07B8DDF> ]
 >>
 startxref
-28495
+28462
 %%EOF
