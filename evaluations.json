@@ -93,80 +93,83 @@
         "solutionFile": "src/ejercicio1.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y concisa. El código es limpio y fácil de entender. Buen trabajo."
+        "feedback": "La solución es correcta y eficiente. El código es claro y fácil de entender, utilizando un condicional simple para determinar si el número es par o impar."
       },
       {
         "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
         "solutionFile": "src/ejercicio2.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La lógica es correcta y el programa funciona. Sin embargo, hay un error tipográfico: usas `num1` y `num2` en el `if` en lugar de `nume1` y `num2`, lo que impediría la ejecución si no estuvieran definidos globalmente. Considera usar nombres de variables consistentes y evita errores tipográficos."
+        "feedback": "La lógica es correcta y funciona bien. Sin embargo, hay un error tipográfico, usas `num1` y `num2` en el `if` cuando fueron declaradas como `nume1` y `num2`. Presta atención a los nombres de las variables."
       },
       {
         "activityDescription": "Clasificación de edad - Declara edad = 15. Imprime 'niño' si es 0-12, 'adolescente' si es 13-17, 'adulto' si es 18-64, 'anciano' si es 65 o más.",
         "solutionFile": "src/ejercicio3.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con los requisitos de la actividad. El código es limpio, legible y utiliza estructuras condicionales adecuadas."
+        "feedback": "La solución es correcta y el código es legible y bien estructurado. Cumple con todos los requisitos de la actividad."
       },
       {
         "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
         "solutionFile": "src/ejercicio4.js",
-        "score": 3,
+        "score": 5,
         "fileFound": true,
-        "feedback": "La lógica del switch es correcta, pero la sintaxis `console.log=` es incorrecta, debe ser `console.log()`. Además, la condición para 'Indeterminado' está invertida y el mensaje incorrecto."
+        "feedback": "Solución correcta y bien estructurada. El código es claro, legible y cumple con todos los requerimientos, incluyendo el manejo de la división por cero. ¡Excelente trabajo!"
       },
       {
         "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
         "solutionFile": "src/ejercicio5.js",
-        "score": 4,
+        "score": 0,
         "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Podría mejorarse incluyendo la validación de otros días de la semana para mayor robustez y usando toLowerCase() para hacer la comparación insensible a mayúsculas/minúsculas."
+        "feedback": "Contenido insuficiente - solo comentarios o código trivial"
       },
       {
         "activityDescription": "Nota a letra - Declara nota = 83. Convierte la nota numérica (0-100) a letra: 90-100 → 'A', 80-89 → 'B', 70-79 → 'C', 60-69 → 'D', < 60 → 'F'.",
         "solutionFile": "src/ejercicio6.js",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución es correcta y funciona como se espera. Podría mejorar la legibilidad usando `const` para la variable `nota` ya que su valor no cambia. Además, considerar usar un switch statement o una función para hacerlo más modular."
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
       },
       {
         "activityDescription": "Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si cantidad < 10, 10% si 10 ≤ cantidad < 50, 20% si cantidad ≥ 50. Imprime precioFinal redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio7.js",
-        "score": 5,
-        "fileFound": true,
-        "feedback": "La solución es correcta y eficiente. El código es claro y fácil de entender, cumpliendo con las especificaciones del problema."
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
       },
       {
         "activityDescription": "Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase = distanciaKm * 0.21. Aplica 20% descuento si edad < 18, 40% descuento si edad ≥ 65. Imprime precio final redondeado a 2 decimales.",
         "solutionFile": "src/ejercicio8.js",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad incluyendo espacios alrededor de los operadores y evitando la concatenación en la impresión del resultado final."
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
       },
       {
         "activityDescription": "Conversor de notas musicales (switch) - Declara nota = 'LA'. Imprime el número MIDI: DO → 60, RE → 62, MI → 64, FA → 65, SOL → 67, LA → 69, SI → 71. Cualquier otro valor → 'nota desconocida'.",
         "solutionFile": "src/ejercicio9.js",
-        "score": 5,
-        "fileFound": true,
-        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es legible y utiliza correctamente la estructura switch."
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
       },
       {
         "activityDescription": "Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.",
         "solutionFile": "src/ejercicio10.js",
-        "score": 5,
-        "fileFound": true,
-        "feedback": "La solución es correcta y cumple con los requisitos. El código es limpio y fácil de entender."
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
       }
     ],
-    "overallScore": 4.4,
+    "overallScore": 1.9,
     "totalActivities": 10,
-    "completedActivities": 10,
-    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.4/5. Demuestra buen dominio de los conceptos.",
+    "completedActivities": 4,
+    "summary": "Necesita mejorar. Completó 4/10 actividades (40%) con una calificación promedio de 1.9/5. Se recomienda revisar los conceptos fundamentales.",
     "recommendations": [
-      "Continuar con el excelente trabajo y mantener la calidad del código"
+      "Completar los archivos faltantes: src/ejercicio6.js, src/ejercicio7.js, src/ejercicio8.js, src/ejercicio9.js, src/ejercicio10.js",
+      "Revisar y mejorar las actividades con calificación baja",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-08-25T04:11:01.834Z",
+    "evaluatedAt": "2025-08-21T22:43:48.972Z",
     "evaluatedBy": "Sistema de Evaluación"
   },
   "irwincol/act_web1_s2": {
@@ -422,6 +425,93 @@
       "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
     "evaluatedAt": "2025-08-25T04:06:56.376Z",
+    "evaluatedBy": "Sistema de Evaluación"
+  },
+  "fquinterop/act_web1_s2": {
+    "repositoryUrl": "fquinterop/act_web1_s2",
+    "studentName": "Felipe Antonio  Quintero Pulgarin",
+    "activities": [
+      {
+        "activityDescription": "Par o Impar - Declara la variable numero = 7. Imprime 'par' o 'impar' según corresponda.",
+        "solutionFile": "src/ejercicio1.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
+        "solutionFile": "src/ejercicio2.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Clasificación de edad - Declara edad = 15. Imprime 'niño' si es 0-12, 'adolescente' si es 13-17, 'adulto' si es 18-64, 'anciano' si es 65 o más.",
+        "solutionFile": "src/ejercicio3.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
+        "solutionFile": "src/ejercicio4.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
+        "solutionFile": "src/ejercicio5.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Nota a letra - Declara nota = 83. Convierte la nota numérica (0-100) a letra: 90-100 → 'A', 80-89 → 'B', 70-79 → 'C', 60-69 → 'D', < 60 → 'F'.",
+        "solutionFile": "src/ejercicio6.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Descuento por volumen - Declara precioUnitario = 25, cantidad = 60. Aplica descuento: 0% si cantidad < 10, 10% si 10 ≤ cantidad < 50, 20% si cantidad ≥ 50. Imprime precioFinal redondeado a 2 decimales.",
+        "solutionFile": "src/ejercicio7.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Transporte con tarifa reducida - Declara edad = 67, distanciaKm = 120, tarifaBase = distanciaKm * 0.21. Aplica 20% descuento si edad < 18, 40% descuento si edad ≥ 65. Imprime precio final redondeado a 2 decimales.",
+        "solutionFile": "src/ejercicio8.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Conversor de notas musicales (switch) - Declara nota = 'LA'. Imprime el número MIDI: DO → 60, RE → 62, MI → 64, FA → 65, SOL → 67, LA → 69, SI → 71. Cualquier otro valor → 'nota desconocida'.",
+        "solutionFile": "src/ejercicio9.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Autenticación simple - Declara usuario = 'admin', contrasena = '1234'. Imprime 'acceso concedido' si coincide exactamente, 'acceso denegado' en cualquier otro caso.",
+        "solutionFile": "src/ejercicio10.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      }
+    ],
+    "overallScore": 0,
+    "totalActivities": 10,
+    "completedActivities": 0,
+    "summary": "Necesita mejorar. Completó 0/10 actividades (0%) con una calificación promedio de 0.0/5. Se recomienda revisar los conceptos fundamentales.",
+    "recommendations": [
+      "Completar los archivos faltantes: src/ejercicio1.js, src/ejercicio2.js, src/ejercicio3.js, src/ejercicio4.js, src/ejercicio5.js, src/ejercicio6.js, src/ejercicio7.js, src/ejercicio8.js, src/ejercicio9.js, src/ejercicio10.js",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
+    ],
+    "evaluatedAt": "2025-08-25T04:13:02.854Z",
     "evaluatedBy": "Sistema de Evaluación"
   }
 }
