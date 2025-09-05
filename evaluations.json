@@ -608,7 +608,7 @@
         "solutionFile": "src/ejercicio1.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con los requisitos del ejercicio. El código es limpio y fácil de entender."
+        "feedback": "La solución es correcta y concisa. El código es legible y cumple con los requisitos del ejercicio."
       },
       {
         "activityDescription": "Mayor de dos números - Declara a = 14 y b = 9. Imprime el mayor de ambos.",
@@ -622,14 +622,14 @@
         "solutionFile": "src/ejercicio3.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y bien estructurada. El código es legible y cumple con todos los requisitos de la actividad."
+        "feedback": "La solución es correcta y bien estructurada. El código es legible y cumple con los requisitos de la actividad."
       },
       {
         "activityDescription": "Calculadora básica con switch - Declara a = 10, b = 3, operador = '*'. Imprime el resultado o 'operador no válido'. Si b === 0 y operador === '/' imprime 'indeterminado'.",
         "solutionFile": "src/ejercicio4.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa. El código es claro y bien estructurado, cubriendo todos los casos requeridos incluyendo la división por cero."
+        "feedback": "La solución es correcta y cumple con todos los requisitos del ejercicio. El código es legible y utiliza buenas prácticas al manejar la división por cero."
       },
       {
         "activityDescription": "Día laborable o fin de semana - Declara dia = 'sabado'. Imprime 'laborable' para lunes-viernes y 'fin de semana' para sábado o domingo.",
@@ -683,7 +683,7 @@
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-08-25T04:45:42.484Z",
+    "evaluatedAt": "2025-09-05T02:59:21.796Z",
     "evaluatedBy": "Sistema de Evaluación"
   },
   "CMARTINEZ-095/act_web1_s2": {
